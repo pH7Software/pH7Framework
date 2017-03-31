@@ -1,0 +1,31 @@
+composer.phar
+phpunit.phar
+src/Core/Kernel.class.php
+src/Core/Kernel_tmp.class.php
+src/Core/License.class.php
+src/Core/License_tmp.class.php
+*.log
+*.tmp
+
+## Gettext ##
+*.mo
+
+## OS ##
+
+# Linux
+*~
+*.swp
+# KDE
+.directory
+
+# Windows
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Mac OS
+.DS_Store*
+._*
+
+# PHPStorm IDE folder.
+/.idea
